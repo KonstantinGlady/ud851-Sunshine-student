@@ -20,8 +20,13 @@
         android:id="@+id/action_share"
         android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
         android:title="@string/action_share"
+        android:orderInCategory="100"
         app:showAsAction="always"/>
 
     <!--TODO (5) Add a Settings option to the detail menu-->
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom"/>
 
 </menu>
